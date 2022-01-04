@@ -1,0 +1,19 @@
+{
+  "name": "artemgolovko/article-content-provider-bundle",
+  "description": "Генератор статьи для курса Skillbox",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Артем Головко",
+      "email": "artem.golovko2008@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "CatCasCarSkillboxSymfony\\ArticleContentProviderBundle\\": "src/"
+    }
+  }
+}
